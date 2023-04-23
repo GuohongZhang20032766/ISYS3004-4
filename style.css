@@ -1,0 +1,33 @@
+/*
+Description: Minimal styling for in-class exercise
+Author: GUOHONG ZHANG
+Email: zhangguohong364@gmail.com
+Tags: RSS Reader
+*/
+
+/* As this was completed in class, there has been a minimalistic approach
+to CSS styling */
+
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  color: #000;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.task {
+  list-style:none;
+}
+
+/* Kept receiving errors with the text not being visible to the user on the site, 
+requested the assistance of ChatGPT, provided me with the below style class
+.task-name */
+.task-name {
+  color: #000;
+}
+  
+.task.completed {
+  text-decoration: line-through;
+}
+  
